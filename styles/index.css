@@ -1,0 +1,91 @@
+/* Inicio clases header */
+.header {
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  background-color: #0092dd;
+  color: #ffffff;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .btn {
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: #0092dd;
+  border: none;
+}
+
+.header .btn:hover {
+  background-color: #0077b5;
+}
+
+.dropdown:hover .options-menu {
+  display: block;
+}
+
+.header .options-menu {
+  display: none;
+  position: absolute;
+  right: 0px;
+}
+
+.options-menu  li{
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options-menu  li:hover{
+  background-color: #f1f0f0;
+}
+/* Fin clases header */
+
+/* Inicio clases main */
+main {
+  max-width: 1366px;
+  margin: 0px auto;
+}
+
+main .welcome {
+  margin: 18px 0px 24px;
+}
+
+main .logs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logs .logs--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  column-gap: 32px;
+  row-gap: 22px;
+}
+
+.logs--grid .more {
+  color: #ffffff;
+}
+.logs--grid .more:hover {
+  color: #f1f0f0;
+}
+
+main .add {
+  display: flex;
+  justify-content: flex-end;
+}
+.add .add--btn {
+  border-radius: 50%;
+  font-size: 28px;
+  padding: 0px 9px;
+  background-color: #0092dd;
+  color: #ffffff;
+  border: 0px;
+  transition: background-color 0.3s;
+}
+
+.add .add--btn:hover {
+  background-color: #0077b5;
+}
+/* Fin clases main */
