@@ -32,6 +32,10 @@
 }
 
 .options-menu  li{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -45,6 +49,7 @@
 main {
   max-width: 1366px;
   margin: 0px auto;
+  padding: 0px 24px;
 }
 
 main .welcome {
@@ -65,27 +70,29 @@ main .logs {
 }
 
 .logs--grid .more {
-  color: #ffffff;
+  color: #fff;
 }
 .logs--grid .more:hover {
-  color: #f1f0f0;
+  color: #fff;
 }
 
 main .add {
+  width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 15px;
 }
 .add .add--btn {
   border-radius: 50%;
   font-size: 28px;
   padding: 0px 9px;
-  background-color: #0092dd;
+  background: rgba(0, 146, 221, .8);
   color: #ffffff;
   border: 0px;
-  transition: background-color 0.3s;
+  transition: 0.3s;
 }
 
 .add .add--btn:hover {
-  background-color: #0077b5;
+  transform: scale(1.2);
 }
 /* Fin clases main */

@@ -15,7 +15,7 @@ body {
   width: 400px; /* Ajustar responsive */
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0, 146, 221, .8);/* rgb(0, 146, 221) */
+  background: rgba(0, 146, 221, .8);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
   border-radius: 10px;
@@ -32,7 +32,7 @@ body {
 .form__group {
   position: relative;
   padding: 15px 0 0;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .form__field {
