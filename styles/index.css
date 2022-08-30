@@ -40,6 +40,7 @@ main .add {
 }
 
 .add .add--btn:hover {
+  background: rgba(0, 146, 221, 1);
   transform: scale(1.2);
 }
 /* Fin clases main */
