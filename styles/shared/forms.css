@@ -28,6 +28,10 @@
   top: 20px;
 }
 
+label {
+  display: block !important;
+}
+
 label,
 .form__field:focus ~ .form__label {
   position: absolute;
@@ -35,14 +39,22 @@ label,
   display: block;
   transition: 0.2s;
   font-size: 12px;
-  color: #03E9F4;
+  color: #212121;
 }
 
 .form__field:focus ~ .form__label {
-  color: #03E9F4;
+  color: #212121;
 }
 
 .form__field:focus {
   padding-bottom: 6px;
+}
+
+.light-field {
+  color: #03E9F4;
+}
+
+.form__field:focus ~ .light-field {
+  color: #03E9F4;
 }
 /* Fin custom input */

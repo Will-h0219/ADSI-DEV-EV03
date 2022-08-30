@@ -1,10 +1,4 @@
 /* Inicio clases main */
-main {
-  max-width: 1366px;
-  margin: 0px auto;
-  padding: 0px 24px;
-}
-
 main .welcome {
   margin: 18px 0px 24px;
 }
