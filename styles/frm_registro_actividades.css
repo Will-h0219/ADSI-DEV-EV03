@@ -1,0 +1,52 @@
+main .presentation {
+  margin: 24px 0 32px;
+}
+
+main .presentation .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  gap: 12px;
+}
+
+main .presentation .title a {
+  color: rgba(0, 146, 221, .8);
+  font-size: 24px;
+  transition: .2s;
+}
+main .presentation .title a:hover {
+  color: rgba(0, 146, 221, 1);
+  transform: scale(1.2);
+}
+
+#communityActivities .activities__identifier {
+  width: 50%;
+}
+
+#communityActivities .check-workbench {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 7px 0;
+}
+
+#workbench {
+  display: flex;
+  gap: 16px;
+}
+
+#communityActivities .workbench__activity {
+  display: none;
+}
+
+#communityActivities .alternative__activity {
+  display: none;
+}
+
+#communityActivities .btns {
+  display: flex;
+  justify-content: flex-end;
+}
+#communityActivities .submit-btn {
+  color: #fff;
+}

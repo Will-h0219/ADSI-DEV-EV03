@@ -1,11 +1,11 @@
 /* Custom input */
-.form__group {
+.mat__form__group {
   position: relative;
   padding: 15px 0 0;
   margin-top: 15px;
 }
 
-.form__field {
+.mat__form__field {
   font-family: inherit;
   width: 100%;
   border: 0;
@@ -18,35 +18,31 @@
   transition: border-color 0.2s;
 }
 
-.form__field::placeholder {
+.mat__form__field::placeholder {
   color: transparent;
 }
 
-.form__field:placeholder-shown ~ .form__label {
+.mat__form__field:placeholder-shown ~ .form__label {
   font-size: 16px;
   cursor: text;
   top: 20px;
 }
 
-label {
-  display: block !important;
-}
-
-label,
-.form__field:focus ~ .form__label {
+.mat__form__group label,
+.mat__form__field:focus ~ .form__label {
   position: absolute;
   top: 0;
-  display: block;
+  display: block !important;
   transition: 0.2s;
   font-size: 12px;
   color: #212121;
 }
 
-.form__field:focus ~ .form__label {
+.mat__form__field:focus ~ .form__label {
   color: #212121;
 }
 
-.form__field:focus {
+.mat__form__field:focus {
   padding-bottom: 6px;
 }
 
@@ -54,7 +50,7 @@ label,
   color: #03E9F4;
 }
 
-.form__field:focus ~ .light-field {
+.mat__form__field:focus ~ .light-field {
   color: #03E9F4;
 }
 /* Fin custom input */
