@@ -1,0 +1,38 @@
+footer {
+  width: 100%;
+  min-width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: rgba(33, 33, 33, .6);
+  padding: 8px 0px;
+  border-top: 1px solid rgba(33, 33, 33, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sena-icon::after {
+  content: "";
+  display: block;
+  mask: url("../../assets/images/sena-colombia-logo.svg") no-repeat 50% 50%;
+  -webkit-mask: url("../../assets/images/sena-colombia-logo.svg") no-repeat 50% 50%;
+  mask-size: 22px;
+  -webkit-mask-size: 22px;
+  background-color: #ff6719;
+  color: #ff6719;
+  width: 32px;
+  height: 22px;
+}
+
+.techo-icon::after {
+  content: "";
+  display: block;
+  mask: url("../../assets/images/techo-logo.svg") no-repeat 50% 50%;
+  -webkit-mask: url("../../assets/images/techo-logo.svg") no-repeat 50% 50%;
+  mask-size: 60px;
+  -webkit-mask-size: 60px;
+  background-color: #0092dd;
+  color: #0092dd;
+  width: 62px;
+  height: 22px;
+}
